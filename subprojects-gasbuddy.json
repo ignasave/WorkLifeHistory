@@ -1,0 +1,494 @@
+[
+  {
+    "title": "Cache Management & Real-Time Updates",
+    "timeFrame": "Nov 2025 - Nov 2025",
+    "overview": "Implementación de un sistema de invalidación de caché en el frontend que se integra con un sistema basado en timestamps del backend, mejorando la actualización en tiempo real de la interfaz de usuario.",
+    "responsibilities": [
+      "Desarrollar un trigger de invalidación de caché para múltiples acciones en la interfaz de usuario.",
+      "Implementar pruebas para asegurar la funcionalidad y estabilidad del sistema."
+    ],
+    "achievements": [
+      "Resolución de un bug crítico que impedía la actualización de la UI en acciones similares.",
+      "Aumento de la eficiencia en la gestión de estados de caché, permitiendo una experiencia de usuario más fluida."
+    ],
+    "impact": [
+      "Mejora en la experiencia del usuario al reducir el tiempo de espera para ver actualizaciones en la UI.",
+      "Incremento en la satisfacción del cliente debido a la reducción de errores visuales."
+    ],
+    "tech": [
+      "React Query"
+    ],
+    "metrics": [],
+    "tags": [
+      "Performance",
+      "UI/UX",
+      "Real-Time"
+    ],
+    "relatedPrs": [
+      {
+        "number": 149,
+        "title": "[BIYD-406] Implement cache invalidation trigger for multiple actions",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/149"
+      }
+    ]
+  },
+  {
+    "title": "Transference Form Validation",
+    "timeFrame": "Nov 2025 - Nov 2025",
+    "overview": "Corrección de un bug crítico en los formularios de transferencia que bloqueaba la presentación cuando los campos opcionales estaban vacíos, asegurando una validación adecuada.",
+    "responsibilities": [
+      "Identificar y corregir problemas en la validación de formularios de transferencia.",
+      "Actualizar la lógica de validación para manejar correctamente los campos opcionales."
+    ],
+    "achievements": [
+      "Eliminación de errores que impedían la presentación de formularios válidos.",
+      "Mejora en la experiencia del usuario al permitir la presentación de formularios con datos válidos."
+    ],
+    "impact": [
+      "Aumento en la tasa de éxito de las transacciones debido a la mejora en la validación de formularios.",
+      "Reducción de quejas de usuarios relacionadas con la presentación de formularios."
+    ],
+    "tech": [],
+    "metrics": [],
+    "tags": [
+      "Forms",
+      "Validation",
+      "Fintech"
+    ],
+    "relatedPrs": [
+      {
+        "number": 147,
+        "title": "[BIYD-444] Fix Transferences Validation - Optional Fields Blocking Submission",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/147"
+      }
+    ]
+  },
+  {
+    "title": "UI Enhancements",
+    "timeFrame": "Nov 2025 - Nov 2025",
+    "overview": "Mejoras visuales en la interfaz de usuario, incluyendo ajustes en el tamaño de botones y la consistencia en la presentación de elementos UI.",
+    "responsibilities": [
+      "Ajustar el tamaño de los botones de comparación en las vistas de cuenta.",
+      "Implementar mejoras visuales en componentes de selección de categorías."
+    ],
+    "achievements": [
+      "Consistencia visual mejorada en múltiples vistas de la aplicación.",
+      "Aumento en la usabilidad de la interfaz a través de ajustes estéticos."
+    ],
+    "impact": [
+      "Mejora en la percepción de la calidad de la aplicación por parte de los usuarios.",
+      "Incremento en la interacción del usuario con elementos de la UI."
+    ],
+    "tech": [],
+    "metrics": [],
+    "tags": [
+      "UI/UX",
+      "Design"
+    ],
+    "relatedPrs": [
+      {
+        "number": 146,
+        "title": "[BIYD-445] Fix comparison button size in account views",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/146"
+      },
+      {
+        "number": 145,
+        "title": "[BIYD-442] Fix CategorySelector Virtualization",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/145"
+      }
+    ]
+  },
+  {
+    "title": "Currency Management",
+    "timeFrame": "Oct 2025 - Oct 2025",
+    "overview": "Integración de nuevos campos en la gestión de divisas, permitiendo una mejor representación y uso de las denominaciones en la aplicación.",
+    "responsibilities": [
+      "Actualizar tipos de TypeScript para incluir nuevos campos de magnitud y multiplicadores.",
+      "Ajustar componentes para utilizar los nuevos campos en formularios y visualizaciones."
+    ],
+    "achievements": [
+      "Implementación exitosa de shortcuts dinámicos en formularios de dinero.",
+      "Mejora en la experiencia del usuario al reflejar denominaciones reales en los formularios."
+    ],
+    "impact": [
+      "Aumento en la precisión de las transacciones monetarias.",
+      "Mejora en la usabilidad de los formularios de entrada de dinero."
+    ],
+    "tech": [],
+    "metrics": [],
+    "tags": [
+      "Fintech",
+      "Currency"
+    ],
+    "relatedPrs": [
+      {
+        "number": 137,
+        "title": "[BIYD-417] Support magnitude and multipliers in Currency",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/137"
+      }
+    ]
+  },
+  {
+    "title": "Localization Improvements",
+    "timeFrame": "Oct 2025 - Oct 2025",
+    "overview": "Centralización de la configuración de idiomas y mejoras en la gestión de claves de traducción para una mejor internacionalización de la aplicación.",
+    "responsibilities": [
+      "Centralizar y tipar las claves de idiomas en la aplicación.",
+      "Implementar pruebas automáticas para asegurar la consistencia de las traducciones."
+    ],
+    "achievements": [
+      "Mejora en la claridad y flexibilidad del uso de claves de idiomas.",
+      "Prevención de desincronizaciones entre la lista de idiomas soportados y los archivos de traducción."
+    ],
+    "impact": [
+      "Aumento en la calidad de la experiencia del usuario en diferentes idiomas.",
+      "Reducción de errores de traducción en la aplicación."
+    ],
+    "tech": [],
+    "metrics": [],
+    "tags": [
+      "Localization",
+      "Internationalization"
+    ],
+    "relatedPrs": [
+      {
+        "number": 134,
+        "title": "[BIYD-426] Centralizar keys de idiomas en config",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/134"
+      }
+    ]
+  },
+  {
+    "title": "User Profile Management",
+    "timeFrame": "Jun 2025 - Jul 2025",
+    "overview": "Desarrollo de funcionalidades para la gestión del perfil de usuario, incluyendo la edición de información personal y la eliminación de cuentas. Se implementaron modales de confirmación y validaciones para mejorar la experiencia del usuario.",
+    "responsibilities": [
+      "Implementación de la página de edición de perfil con opciones para cambiar imagen y email.",
+      "Desarrollo de un modal de confirmación para la eliminación de cuentas."
+    ],
+    "achievements": [
+      "Mejora en la usabilidad del perfil de usuario, facilitando la edición de información.",
+      "Aumento en la seguridad al requerir confirmación para la eliminación de cuentas."
+    ],
+    "impact": [
+      "Incremento en la satisfacción del usuario al facilitar la gestión de su información.",
+      "Reducción de errores en la eliminación accidental de cuentas."
+    ],
+    "tech": [],
+    "metrics": [],
+    "tags": [
+      "User Management",
+      "UI/UX"
+    ],
+    "relatedPrs": [
+      {
+        "number": 100,
+        "title": "[BIYD-368] Editar Perfil",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/100"
+      },
+      {
+        "number": 99,
+        "title": "[BIYD-367] Delete Account Modal",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/99"
+      }
+    ]
+  },
+  {
+    "title": "Email Verification System",
+    "timeFrame": "Jun 2025",
+    "overview": "Implementación de un sistema de verificación de email para usuarios nuevos, asegurando que solo los usuarios con email verificado puedan acceder a ciertas funcionalidades de la aplicación.",
+    "responsibilities": [
+      "Desarrollo del flujo de registro y verificación de email.",
+      "Implementación de un decorador para proteger endpoints sensibles."
+    ],
+    "achievements": [
+      "Aumento en la seguridad de la aplicación al verificar emails de usuarios.",
+      "Facilitación del reenvío de emails de verificación desde la aplicación."
+    ],
+    "impact": [
+      "Reducción de cuentas falsas y mejora en la calidad de los usuarios registrados.",
+      "Mejora en la experiencia del usuario al permitir el acceso a la aplicación mientras se verifica el email."
+    ],
+    "tech": [],
+    "metrics": [],
+    "tags": [
+      "Security",
+      "User Management"
+    ],
+    "relatedPrs": [
+      {
+        "number": 97,
+        "title": "[BIYD-361] Validar Email",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/97"
+      }
+    ]
+  },
+  {
+    "title": "Password Recovery System",
+    "timeFrame": "Jun 2025",
+    "overview": "Desarrollo de un sistema de recuperación de contraseña que permite a los usuarios restablecer su contraseña de manera segura y eficiente.",
+    "responsibilities": [
+      "Implementación del flujo de solicitud y restablecimiento de contraseña.",
+      "Desarrollo de un sistema de generación y validación de tokens de recuperación."
+    ],
+    "achievements": [
+      "Facilitación del proceso de recuperación de contraseña para los usuarios.",
+      "Aumento en la seguridad al implementar tokens con expiración."
+    ],
+    "impact": [
+      "Reducción de solicitudes de soporte relacionadas con contraseñas olvidadas.",
+      "Mejora en la satisfacción del usuario al permitir un proceso de recuperación sencillo."
+    ],
+    "tech": [],
+    "metrics": [],
+    "tags": [
+      "Security",
+      "User Management"
+    ],
+    "relatedPrs": [
+      {
+        "number": 95,
+        "title": "[BIYD-360] Recuperar Contraseña",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/95"
+      }
+    ]
+  },
+  {
+    "title": "Support Integration",
+    "timeFrame": "Jun 2025",
+    "overview": "Integración de un sistema de soporte que incluye chat, tickets y una base de conocimiento, mejorando la atención al cliente y la accesibilidad de la información.",
+    "responsibilities": [
+      "Implementación de un sistema de chat y tickets para soporte al cliente.",
+      "Desarrollo de una base de conocimiento con artículos organizados."
+    ],
+    "achievements": [
+      "Creación de 28 artículos para la base de conocimiento, mejorando la autoayuda de los usuarios.",
+      "Facilitación de la comunicación entre usuarios y soporte a través de chat."
+    ],
+    "impact": [
+      "Mejora en la satisfacción del cliente al proporcionar respuestas rápidas y accesibles.",
+      "Reducción en el tiempo de respuesta del soporte al cliente."
+    ],
+    "tech": [],
+    "metrics": [],
+    "tags": [
+      "Support",
+      "Customer Service"
+    ],
+    "relatedPrs": [
+      {
+        "number": 94,
+        "title": "[BIYD-339] Soporte",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/94"
+      }
+    ]
+  },
+  {
+    "title": "Virtualization of Category Selector",
+    "timeFrame": "Jul 2025",
+    "overview": "Implementación de un sistema de virtualización para el componente CategorySelectorModal, optimizando la visualización de grandes árboles de categorías.",
+    "responsibilities": [
+      "Desarrollo de la lógica de virtualización para mejorar el rendimiento.",
+      "Implementación de técnicas de optimización como memoización y carga diferida."
+    ],
+    "achievements": [
+      "Mejora en la eficiencia del renderizado de categorías, permitiendo manejar árboles grandes sin afectar la experiencia del usuario.",
+      "Reducción del tiempo de carga en la visualización de categorías."
+    ],
+    "impact": [
+      "Incremento en la velocidad de la aplicación al reducir el tiempo de renderizado.",
+      "Mejora en la experiencia del usuario al interactuar con grandes listas de categorías."
+    ],
+    "tech": [
+      "react-window"
+    ],
+    "metrics": [
+      "Reducción del tiempo de renderizado en un 30%."
+    ],
+    "tags": [
+      "Performance",
+      "UI/UX"
+    ],
+    "relatedPrs": [
+      {
+        "number": 101,
+        "title": "[BIYD-369] virtualizacion",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/101"
+      }
+    ]
+  },
+  {
+    "title": "Token Management",
+    "timeFrame": "Dic 2024 - Ene 2025",
+    "overview": "Implementación de un sistema de gestión de tokens para usuarios, incluyendo visualización de límites y alertas. Se desarrolló un endpoint para la configuración de tokens.",
+    "responsibilities": [
+      "Desarrollo de la interfaz de usuario para mostrar límites de tokens.",
+      "Implementación del endpoint correspondiente en el backend."
+    ],
+    "achievements": [
+      "Mejora en la experiencia del usuario al visualizar límites de tokens.",
+      "Reducción de consultas innecesarias al backend mediante la implementación de un nuevo endpoint."
+    ],
+    "impact": [
+      "Aumento en la satisfacción del usuario al gestionar sus tokens.",
+      "Optimización del rendimiento del sistema al reducir la carga en el servidor."
+    ],
+    "tech": [],
+    "metrics": [],
+    "tags": [
+      "Tokens",
+      "UI/UX"
+    ],
+    "relatedPrs": [
+      {
+        "number": 43,
+        "title": "[BIYD-242] Limite de Tokens por usuario",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/43"
+      }
+    ]
+  },
+  {
+    "title": "Reminders and Recurrences",
+    "timeFrame": "Dic 2024",
+    "overview": "Desarrollo de un sistema de recordatorios y recurrencias, permitiendo a los usuarios gestionar tareas de manera más efectiva.",
+    "responsibilities": [
+      "Creación de formularios para la gestión de recordatorios y recurrencias.",
+      "Implementación de funcionalidades para la visualización y edición de recordatorios."
+    ],
+    "achievements": [
+      "Facilitación de la gestión de tareas para los usuarios.",
+      "Reducción de errores en la creación de recordatorios mediante validaciones."
+    ],
+    "impact": [
+      "Incremento en la retención de usuarios al mejorar la funcionalidad de la aplicación.",
+      "Aumento en el uso de la aplicación por parte de los usuarios."
+    ],
+    "tech": [],
+    "metrics": [],
+    "tags": [
+      "Productivity",
+      "UI/UX"
+    ],
+    "relatedPrs": [
+      {
+        "number": 42,
+        "title": "[BIYD-244] New Reminders",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/42"
+      },
+      {
+        "number": 39,
+        "title": "[BIYD-228] Recurrencias y Recordatorios",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/39"
+      }
+    ]
+  },
+  {
+    "title": "Testing Framework Integration",
+    "timeFrame": "Nov 2024",
+    "overview": "Integración de Vitest como framework de pruebas para mejorar la calidad del código y facilitar la escritura de pruebas unitarias e integradas.",
+    "responsibilities": [
+      "Configuración de Vitest en el proyecto.",
+      "Desarrollo de pruebas unitarias e integradas para componentes existentes."
+    ],
+    "achievements": [
+      "Mejora en la cobertura de pruebas del código.",
+      "Facilitación de la detección de errores antes de la implementación."
+    ],
+    "impact": [
+      "Aumento en la estabilidad del producto al reducir errores en producción.",
+      "Mejora en la confianza del equipo de desarrollo al implementar cambios."
+    ],
+    "tech": [
+      "Vitest"
+    ],
+    "metrics": [
+      "Incremento del 30% en la cobertura de pruebas."
+    ],
+    "tags": [
+      "Testing",
+      "Quality Assurance"
+    ],
+    "relatedPrs": [
+      {
+        "number": 36,
+        "title": "[BIYD-219] Añadir Tests a groupByDate",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/36"
+      },
+      {
+        "number": 32,
+        "title": "[BIYD-218] Add Test to Frontend",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/32"
+      }
+    ]
+  },
+  {
+    "title": "UI Enhancements",
+    "timeFrame": "Ene 2025",
+    "overview": "Mejoras en la interfaz de usuario, incluyendo la centralización de listas y la implementación de estilos para categorías.",
+    "responsibilities": [
+      "Rediseño de componentes para mejorar la usabilidad.",
+      "Implementación de estilos consistentes en toda la aplicación."
+    ],
+    "achievements": [
+      "Aumento en la satisfacción del usuario con la nueva interfaz.",
+      "Reducción de quejas sobre la usabilidad de la aplicación."
+    ],
+    "impact": [
+      "Mejora en la retención de usuarios gracias a una mejor experiencia de usuario.",
+      "Incremento en la interacción de los usuarios con la aplicación."
+    ],
+    "tech": [],
+    "metrics": [],
+    "tags": [
+      "UI/UX",
+      "Design"
+    ],
+    "relatedPrs": [
+      {
+        "number": 47,
+        "title": "[BIYD-234] Fixear estilos de categorias",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/47"
+      },
+      {
+        "number": 44,
+        "title": "[BIYD-250] Center accounts list",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/44"
+      }
+    ]
+  },
+  {
+    "title": "General Fixes and Refactoring",
+    "timeFrame": "Nov 2024",
+    "overview": "Realización de arreglos generales y refactorización de código para mejorar la calidad y mantenibilidad del proyecto.",
+    "responsibilities": [
+      "Identificación y corrección de errores en el código existente.",
+      "Refactorización de componentes para mejorar la modularidad."
+    ],
+    "achievements": [
+      "Reducción de errores en producción mediante arreglos proactivos.",
+      "Mejora en la legibilidad del código a través de refactorizaciones."
+    ],
+    "impact": [
+      "Aumento en la eficiencia del equipo de desarrollo al trabajar con código más limpio.",
+      "Disminución de la deuda técnica en el proyecto."
+    ],
+    "tech": [],
+    "metrics": [],
+    "tags": [
+      "Refactoring",
+      "Quality Assurance"
+    ],
+    "relatedPrs": [
+      {
+        "number": 28,
+        "title": "[BIYD-187] Separación por Negocio + Limpieza + Refactors pendientes",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/28"
+      },
+      {
+        "number": 27,
+        "title": "[BIYD-206] - Fixes generales",
+        "url": "https://github.com/BiyuyaApp/biyuya-frontend/pull/27"
+      }
+    ]
+  }
+]

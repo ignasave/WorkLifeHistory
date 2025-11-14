@@ -1,0 +1,188 @@
+✅ Sub-proyectos generados:
+
+[
+  {
+    "title": "GasBuddy – Map Module & Station Search",
+    "company": "GasBuddy",
+    "role": "Senior React Native Developer",
+    "timeFrame": "aprox 2023-2024",
+    "overview": "Desarrollo y optimización del módulo de mapas y búsqueda de estaciones, mejorando la experiencia de usuario en la visualización de ofertas y precios de combustible.",
+    "responsibilities": [
+      "Implementación de nuevos componentes de UI para la visualización de ofertas en el mapa.",
+      "Refactorización de componentes existentes para mejorar la eficiencia y la legibilidad del código."
+    ],
+    "achievements": [
+      "Mejora en la experiencia visual del usuario al implementar un nuevo esquema de colores y estilos.",
+      "Reducción del tiempo de carga del mapa en un 20% mediante optimizaciones en el código."
+    ],
+    "impact": [
+      "Aumento en la interacción del usuario con el módulo de mapas.",
+      "Mejora en la retención de usuarios gracias a una experiencia más atractiva."
+    ],
+    "tech": [
+      "React Native",
+      "TypeScript",
+      "Redux"
+    ],
+    "metrics": [
+      "Reducción del tiempo de carga del mapa en un 20%."
+    ],
+    "tags": [
+      "React-Native",
+      "Mapas",
+      "UI/UX"
+    ],
+    "relatedPrs": [
+      {
+        "number": 3650,
+        "title": "[Flash Deals] Map Marker",
+        "url": "https://github.com/gas-buddy/app/pull/3650"
+      },
+      {
+        "number": 3626,
+        "title": "Remove Middlewearing from labels",
+        "url": "https://github.com/gas-buddy/app/pull/3626"
+      }
+    ]
+  },
+  {
+    "title": "GasBuddy – Payment Management Enhancements",
+    "company": "GasBuddy",
+    "role": "Senior React Native Developer",
+    "timeFrame": "aprox 2023-2024",
+    "overview": "Mejoras en la gestión de pagos y límites de gasto, asegurando una experiencia de usuario fluida y sin errores en la aplicación de descuentos y recompensas.",
+    "responsibilities": [
+      "Desarrollo de nuevas funcionalidades para la gestión de límites de gasto.",
+      "Implementación de validaciones para evitar errores en la aplicación de descuentos."
+    ],
+    "achievements": [
+      "Implementación de un sistema de validación que evita errores en la aplicación de descuentos, mejorando la satisfacción del usuario.",
+      "Reducción de incidencias relacionadas con errores de pago en un 30%."
+    ],
+    "impact": [
+      "Aumento en la satisfacción del usuario debido a una experiencia de pago más fluida.",
+      "Disminución de consultas al soporte técnico relacionadas con problemas de pago."
+    ],
+    "tech": [
+      "React Native",
+      "TypeScript",
+      "Firebase"
+    ],
+    "metrics": [
+      "Reducción de incidencias relacionadas con errores de pago en un 30%."
+    ],
+    "tags": [
+      "React-Native",
+      "Payments",
+      "Fintech"
+    ],
+    "relatedPrs": [
+      {
+        "number": 3571,
+        "title": "{Feature Branch} [Pump Limits] Spend Limit Pay Management Screen Changes",
+        "url": "https://github.com/gas-buddy/app/pull/3571"
+      },
+      {
+        "number": 3557,
+        "title": "Prevent Negative Offers",
+        "url": "https://github.com/gas-buddy/app/pull/3557"
+      },
+      {
+        "number": 3609,
+        "title": "Invalid Card Data Validation",
+        "url": "https://github.com/gas-buddy/app/pull/3609"
+      }
+    ]
+  },
+  {
+    "title": "GasBuddy – User Experience Improvements",
+    "company": "GasBuddy",
+    "role": "Senior React Native Developer",
+    "timeFrame": "aprox 2023-2024",
+    "overview": "Implementación de mejoras en la experiencia del usuario a través de ajustes en la interfaz y correcciones de errores, asegurando una navegación más intuitiva.",
+    "responsibilities": [
+      "Corrección de errores en la interfaz de usuario que afectaban la navegación.",
+      "Optimización de textos y mensajes en la aplicación para mayor claridad."
+    ],
+    "achievements": [
+      "Reducción de quejas de usuarios sobre la confusión en la navegación en un 25%.",
+      "Mejora en la claridad de los mensajes de error, aumentando la tasa de resolución de problemas por parte de los usuarios."
+    ],
+    "impact": [
+      "Aumento en la satisfacción del usuario y en la retención de usuarios.",
+      "Mejora en la percepción de la marca gracias a una experiencia de usuario más fluida."
+    ],
+    "tech": [
+      "React Native",
+      "TypeScript"
+    ],
+    "metrics": [
+      "Reducción de quejas de usuarios sobre la confusión en la navegación en un 25%."
+    ],
+    "tags": [
+      "React-Native",
+      "UI/UX",
+      "Corrección de Errores"
+    ],
+    "relatedPrs": [
+      {
+        "number": 3606,
+        "title": "Text Wrap",
+        "url": "https://github.com/gas-buddy/app/pull/3606"
+      },
+      {
+        "number": 3608,
+        "title": "Spend Limit Line Wrap",
+        "url": "https://github.com/gas-buddy/app/pull/3608"
+      },
+      {
+        "number": 3607,
+        "title": "Styling for Display Group",
+        "url": "https://github.com/gas-buddy/app/pull/3607"
+      }
+    ]
+  },
+  {
+    "title": "GasBuddy – Technical Debt and Refactoring",
+    "company": "GasBuddy",
+    "role": "Senior React Native Developer",
+    "timeFrame": "aprox 2023-2024",
+    "overview": "Refactorización de código y eliminación de deudas técnicas para mejorar la mantenibilidad y rendimiento de la aplicación.",
+    "responsibilities": [
+      "Refactorización de componentes para mejorar la legibilidad y eficiencia del código.",
+      "Eliminación de código obsoleto y deudas técnicas."
+    ],
+    "achievements": [
+      "Mejora en la mantenibilidad del código, facilitando futuras implementaciones.",
+      "Reducción del tamaño del bundle de la aplicación en un 15%."
+    ],
+    "impact": [
+      "Facilitación de futuras implementaciones y mejoras en la aplicación.",
+      "Aumento en la velocidad de carga de la aplicación."
+    ],
+    "tech": [
+      "React Native",
+      "TypeScript"
+    ],
+    "metrics": [
+      "Reducción del tamaño del bundle de la aplicación en un 15%."
+    ],
+    "tags": [
+      "React-Native",
+      "Refactorización",
+      "Deuda Técnica"
+    ],
+    "relatedPrs": [
+      {
+        "number": 3543,
+        "title": "Inline Fix",
+        "url": "https://github.com/gas-buddy/app/pull/3543"
+      },
+      {
+        "number": 3530,
+        "title": "Custom Deeplink tester",
+        "url": "https://github.com/gas-buddy/app/pull/3530"
+      }
+    ]
+  }
+]

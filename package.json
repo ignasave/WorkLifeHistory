@@ -1,0 +1,30 @@
+{
+  "name": "worklifehistory",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "debug:notion": "node scripts/debug-notion-schema.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "AI-powered CV generator using Notion and OpenAI",
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "dotenv": "^17.2.3",
+    "next": "^15.0.0",
+    "openai": "^6.9.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.4"
+  }
+}
